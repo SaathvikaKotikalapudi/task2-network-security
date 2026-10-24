@@ -1,0 +1,50 @@
+TASK 2: NETWORK SECURITY AND SCANNING
+
+Target IP Address: 192.168.56.101
+Target Machine: Metasploitable 2
+Scanning Machine: Kali Linux
+
+1. HOST DISCOVERY
+Tool: Nmap
+Purpose: To identify whether the target host is reachable.
+
+2. TCP PORT SCANNING
+Tool: Nmap
+Scan Type: TCP SYN Scan
+Purpose: To identify open TCP ports on the target.
+
+3. UDP PORT SCANNING
+Tool: Nmap
+Scan Type: Top 20 UDP Ports
+Purpose: To identify potentially accessible UDP services.
+
+4. SERVICE AND VERSION DETECTION
+Tool: Nmap
+Purpose: To identify running services and their versions.
+
+5. OPERATING SYSTEM DETECTION
+Tool: Nmap
+Purpose: To estimate the operating system running on the target.
+
+6. WIRESHARK PACKET ANALYSIS
+Tool: Wireshark
+Capture File: capture.pcapng
+Purpose: To capture and inspect network traffic in the lab.
+ICMP traffic was observed during the ping test.
+
+7. FIREWALL TESTING
+Purpose: To test the effect of a temporary firewall rule
+on HTTP connectivity to the target.
+
+REPORT FILES
+- full-scan.nmap
+- os-detection.txt
+- tcp-scan.txt
+- udp-scan.txt
+- capture.pcapng
+
+NOTE:
+This summary describes the tests performed. Refer to the
+individual Nmap reports for actual scan results.
+A Greenbone/OpenVAS vulnerability scan report has not yet
+been generated.
